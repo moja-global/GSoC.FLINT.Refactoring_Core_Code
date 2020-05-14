@@ -25,7 +25,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
 <table><tr><td align="center"><a href="http://moja.global"><img src="https://avatars1.githubusercontent.com/u/19564969?v=4" width="100px;" alt="moja global"/><br /><sub><b>moja global</b></sub></a><br /><a href="#projectManagement-moja-global" title="Project Management">📆</a></td>
-<td align="center"><a href="https://www.linkedin.com/in/parth-arora-1449ab14a/"><img src="https://scontent.fbho3-1.fna.fbcdn.net/v/t1.0-9/p960x960/51835744_959852850880166_6584144483485483008_o.jpg?_nc_cat=101&_nc_sid=dd7718&_nc_ohc=1riJ6sPdVi0AX9-OVkq&_nc_ht=scontent.fbho3-1.fna&_nc_tp=6&oh=ccffaff7a2713cc4d40f84c2a2dcb79a&oe=5EE2AE9E" width="100px;" alt=""/><br /><sub><b>Parth Arora</b></sub></a><br /><a href=" https://drive.google.com/open?id=10sz-qDqV9N08tQe96XCAvPbcfFgkkt5t " title="Resume">📆</a>
+<td align="center"><a href="https://www.linkedin.com/in/parth-arora-1449ab14a/"><img src="https://scontent.fbho3-1.fna.fbcdn.net/v/t1.0-9/p960x960/51835744_959852850880166_6584144483485483008_o.jpg?_nc_cat=101&_nc_sid=dd7718&_nc_ohc=1riJ6sPdVi0AX9-OVkq&_nc_ht=scontent.fbho3-1.fna&_nc_tp=6&oh=ccffaff7a2713cc4d40f84c2a2dcb79a&oe=5EE2AE9E" width="100px" alt=""/><br /><sub><b>Parth Arora</b></sub></a><br/><a href="https://drive.google.com/open?id=10sz-qDqV9N08tQe96XCAvPbcfFgkkt5t" title="Resume">📆</a>
 </td></tr></table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
