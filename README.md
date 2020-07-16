@@ -38,7 +38,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 The following people are Maintainers Reviewers Ambassadors or Coaches  
 
 <table><tr><td align="center"><a href="https://github.com/malfrancis"><img src="https://avatars0.githubusercontent.com/u/5935221?v=4" width="100px;" alt=""/><br /><sub><b>Mal</b></sub></a><br /><a href="https://github.com/moja-global/About_moja_global/commits?author=malfrancis" title="Code">💻</a></td>
-  <td align="center"><a href="https://www.linkedin.com/in/parth-arora-1449ab14a/"><img src="https://scontent.fbho3-1.fna.fbcdn.net/v/t1.0-9/p960x960/51835744_959852850880166_6584144483485483008_o.jpg?_nc_cat=101&_nc_sid=dd7718&_nc_ohc=1riJ6sPdVi0AX9-OVkq&_nc_ht=scontent.fbho3-1.fna&_nc_tp=6&oh=ccffaff7a2713cc4d40f84c2a2dcb79a&oe=5EE2AE9E" width="100px" alt=""/><br /><sub><b>Parth Arora</b></sub></a><br/><a href="https://drive.google.com/open?id=1ZEIe905-vOv0158zEhHXaJ-nPXm395gx" title="Resume">📆</a>
+  <td align="center"><a href="https://www.linkedin.com/in/parth-arora-1449ab14a/"><img src="https://drive.google.com/file/d/1Iq_GC0y45N5W-jH8yBh5BFAIKDdfYK1E/view?usp=sharing" width="100px" alt=""/><br /><sub><b>Parth Arora</b></sub></a><br/><a href="https://drive.google.com/open?id=1ZEIe905-vOv0158zEhHXaJ-nPXm395gx" title="Resume">📆</a>
 </td></tr></table>  
 
 **Maintainers** review and accept proposed changes  
