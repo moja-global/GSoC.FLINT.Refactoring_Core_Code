@@ -1,0 +1,185 @@
+﻿  Building Custom Rule E:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark/benchmark/test/CMakeLists.txt
+  benchmark_gtest.cc
+E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\test\../src/benchmark_register.h(25,1): warning C4244: '*=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=int8_t
+          ]
+E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\test\../src/benchmark_register.h(95): message : see reference to function template instantiation 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> benchmark::internal::AddPowers<int8_t>(std::vector<_Ty,std::allocator<_Ty>> *,T,T,int)' being compiled
+          with
+          [
+              _Ty=int8_t,
+              T=int8_t
+          ]
+E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\test\benchmark_gtest.cc(37): message : see reference to function template instantiation 'void benchmark::internal::AddRange<int8_t>(std::vector<int8_t,std::allocator<int8_t>> *,T,T,int)' being compiled
+          with
+          [
+              T=int8_t
+          ]
+E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\googletest\googlemock\include\gmock/gmock-matchers.h(368,12): warning C4244: 'argument': conversion from 'const M' to 'const Element', possible loss of data
+          with
+          [
+              M=int
+          ]
+E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\googletest\googlemock\include\gmock/gmock-matchers.h(352): message : see reference to function template instantiation 'testing::Matcher<const Element &> testing::internal::MatcherCastImpl<T,M>::CastImpl<true>(const M &,std::true_type,std::integral_constant<bool,true>)' being compiled
+          with
+          [
+              T=const Element &,
+              M=int
+          ]
+E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\googletest\googlemock\include\gmock/gmock-matchers.h(350): message : see reference to function template instantiation 'testing::Matcher<const Element &> testing::internal::MatcherCastImpl<T,M>::CastImpl<true>(const M &,std::true_type,std::integral_constant<bool,true>)' being compiled
+          with
+          [
+              T=const Element &,
+              M=int
+          ]
+E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\googletest\googlemock\include\gmock/gmock-matchers.h(336): message : while compiling class template member function 'testing::Matcher<const Element &> testing::internal::MatcherCastImpl<T,M>::Cast(const M &)'
+          with
+          [
+              T=const Element &,
+              M=int
+          ]
+E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\googletest\googlemock\include\gmock/gmock-matchers.h(510): message : see reference to function template instantiation 'testing::Matcher<const Element &> testing::internal::MatcherCastImpl<T,M>::Cast(const M &)' being compiled
+          with
+          [
+              T=const Element &,
+              M=int
+          ]
+E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\googletest\googlemock\include\gmock/gmock-matchers.h(510): message : see reference to class template instantiation 'testing::internal::MatcherCastImpl<T,M>' being compiled
+          with
+          [
+              T=const Element &,
+              M=int
+          ]
+E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\googletest\googlemock\include\gmock/gmock-matchers.h(3230): message : see reference to function template instantiation 'testing::Matcher<const Element &> testing::MatcherCast<Target,Arg>(const M &)' being compiled
+          with
+          [
+              Target=const Element &,
+              Arg=int,
+              M=int
+          ]
+E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\googletest\googlemock\include\gmock/gmock-matchers.h(718): message : see reference to function template instantiation 'testing::Matcher<const Element &> testing::internal::CastAndAppendTransform<const Element &>::operator ()<int>(const Arg &) const' being compiled
+          with
+          [
+              Arg=int
+          ]
+E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\googletest\googlemock\include\gmock/gmock-matchers.h(718): message : see reference to function template instantiation 'testing::Matcher<const Element &> testing::internal::CastAndAppendTransform<const Element &>::operator ()<int>(const Arg &) const' being compiled
+          with
+          [
+              Arg=int
+          ]
+E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\googletest\googlemock\include\gmock/gmock-matchers.h(717): message : while compiling class template member function 'OutIter testing::internal::TransformTupleValuesHelper<Tuple,Func,OutIter>::IterateOverTuple<Tuple,4>::operator ()(Func,const Tup &,OutIter) const'
+          with
+          [
+              OutIter=std::back_insert_iterator<MatcherVec>,
+              Tuple=std::tuple<int,int,int,int>,
+              Func=testing::internal::CastAndAppendTransform<const Element &>,
+              Tup=std::tuple<int,int,int,int>
+          ]
+E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\googletest\googlemock\include\gmock/gmock-matchers.h(711): message : see reference to function template instantiation 'OutIter testing::internal::TransformTupleValuesHelper<Tuple,Func,OutIter>::IterateOverTuple<Tuple,4>::operator ()(Func,const Tup &,OutIter) const' being compiled
+          with
+          [
+              OutIter=std::back_insert_iterator<MatcherVec>,
+              Tuple=std::tuple<int,int,int,int>,
+              Func=testing::internal::CastAndAppendTransform<const Element &>,
+              Tup=std::tuple<int,int,int,int>
+          ]
+E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\googletest\googlemock\include\gmock/gmock-matchers.h(711): message : see reference to class template instantiation 'testing::internal::TransformTupleValuesHelper<Tuple,Func,OutIter>::IterateOverTuple<Tuple,4>' being compiled
+          with
+          [
+              Tuple=std::tuple<int,int,int,int>,
+              Func=testing::internal::CastAndAppendTransform<const Element &>,
+              OutIter=std::back_insert_iterator<MatcherVec>
+          ]
+E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\googletest\googlemock\include\gmock/gmock-matchers.h(710): message : while compiling class template member function 'OutIter testing::internal::TransformTupleValuesHelper<Tuple,Func,OutIter>::Run(Func,const Tuple &,OutIter)'
+          with
+          [
+              OutIter=std::back_insert_iterator<MatcherVec>,
+              Tuple=std::tuple<int,int,int,int>,
+              Func=testing::internal::CastAndAppendTransform<const Element &>
+          ]
+E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\googletest\googlemock\include\gmock/gmock-matchers.h(735): message : see reference to function template instantiation 'OutIter testing::internal::TransformTupleValuesHelper<Tuple,Func,OutIter>::Run(Func,const Tuple &,OutIter)' being compiled
+          with
+          [
+              OutIter=std::back_insert_iterator<MatcherVec>,
+              Tuple=std::tuple<int,int,int,int>,
+              Func=testing::internal::CastAndAppendTransform<const Element &>
+          ]
+E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\googletest\googlemock\include\gmock/gmock-matchers.h(735): message : see reference to class template instantiation 'testing::internal::TransformTupleValuesHelper<Tuple,Func,OutIter>' being compiled
+          with
+          [
+              Tuple=std::tuple<int,int,int,int>,
+              Func=testing::internal::CastAndAppendTransform<const Element &>,
+              OutIter=std::back_insert_iterator<MatcherVec>
+          ]
+E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\googletest\googlemock\include\gmock/gmock-matchers.h(3281): message : see reference to function template instantiation 'OutIter testing::internal::TransformTupleValues<MatcherTuple,testing::internal::CastAndAppendTransform<const Element &>,std::back_insert_iterator<MatcherVec>>(Func,const Tuple &,OutIter)' being compiled
+          with
+          [
+              OutIter=std::back_insert_iterator<MatcherVec>,
+              MatcherTuple=std::tuple<int,int,int,int>,
+              Func=testing::internal::CastAndAppendTransform<const Element &>,
+              Tuple=std::tuple<int,int,int,int>
+          ]
+E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\googletest\googlemock\include\gmock/gmock-matchers.h(368): message : see reference to function template instantiation 'testing::internal::ElementsAreMatcher<std::tuple<int,int,int,int>>::operator testing::Matcher<const T &>(void) const<const T&>' being compiled
+          with
+          [
+              T=std::vector<int8_t,std::allocator<int8_t>>
+          ]
+E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\googletest\googlemock\include\gmock/gmock-matchers.h(368): message : see reference to function template instantiation 'testing::internal::ElementsAreMatcher<std::tuple<int,int,int,int>>::operator testing::Matcher<const T &>(void) const<const T&>' being compiled
+          with
+          [
+              T=std::vector<int8_t,std::allocator<int8_t>>
+          ]
+E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\googletest\googlemock\include\gmock/gmock-matchers.h(352): message : see reference to function template instantiation 'testing::Matcher<const T &> testing::internal::MatcherCastImpl<const std::vector<int8_t,std::allocator<int8_t>>&,M>::CastImpl<false>(const M &,std::true_type,std::integral_constant<bool,false>)' being compiled
+          with
+          [
+              T=std::vector<int8_t,std::allocator<int8_t>>,
+              M=testing::internal::ElementsAreMatcher<std::tuple<int,int,int,int>>
+          ]
+E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\googletest\googlemock\include\gmock/gmock-matchers.h(350): message : see reference to function template instantiation 'testing::Matcher<const T &> testing::internal::MatcherCastImpl<const std::vector<int8_t,std::allocator<int8_t>>&,M>::CastImpl<false>(const M &,std::true_type,std::integral_constant<bool,false>)' being compiled
+          with
+          [
+              T=std::vector<int8_t,std::allocator<int8_t>>,
+              M=testing::internal::ElementsAreMatcher<std::tuple<int,int,int,int>>
+          ]
+E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\googletest\googlemock\include\gmock/gmock-matchers.h(336): message : while compiling class template member function 'testing::Matcher<const T &> testing::internal::MatcherCastImpl<const std::vector<int8_t,std::allocator<int8_t>>&,M>::Cast(const M &)'
+          with
+          [
+              T=std::vector<int8_t,std::allocator<int8_t>>,
+              M=testing::internal::ElementsAreMatcher<std::tuple<int,int,int,int>>
+          ]
+E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\googletest\googlemock\include\gmock/gmock-matchers.h(510): message : see reference to function template instantiation 'testing::Matcher<const T &> testing::internal::MatcherCastImpl<const std::vector<int8_t,std::allocator<int8_t>>&,M>::Cast(const M &)' being compiled
+          with
+          [
+              T=std::vector<int8_t,std::allocator<int8_t>>,
+              M=testing::internal::ElementsAreMatcher<std::tuple<int,int,int,int>>
+          ]
+E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\googletest\googlemock\include\gmock/gmock-matchers.h(510): message : see reference to class template instantiation 'testing::internal::MatcherCastImpl<T,M>' being compiled
+          with
+          [
+              T=const std::vector<int8_t,std::allocator<int8_t>> &,
+              M=testing::internal::ElementsAreMatcher<std::tuple<int,int,int,int>>
+          ]
+E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\googletest\googlemock\include\gmock/gmock-matchers.h(517): message : see reference to function template instantiation 'testing::Matcher<const T &> testing::MatcherCast<const std::vector<int8_t,std::allocator<int8_t>>&,M>(const M &)' being compiled
+          with
+          [
+              T=std::vector<int8_t,std::allocator<int8_t>>,
+              M=testing::internal::ElementsAreMatcher<std::tuple<int,int,int,int>>
+          ]
+E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\googletest\googlemock\include\gmock/gmock-matchers.h(1539): message : see reference to function template instantiation 'testing::Matcher<const T &> testing::SafeMatcherCast<const T&,M>(const M &)' being compiled
+          with
+          [
+              T=std::vector<int8_t,std::allocator<int8_t>>,
+              M=testing::internal::ElementsAreMatcher<std::tuple<int,int,int,int>>
+          ]
+E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\test\benchmark_gtest.cc(38): message : see reference to function template instantiation 'testing::AssertionResult testing::internal::PredicateFormatterFromMatcher<testing::internal::ElementsAreMatcher<std::tuple<int,int,int,int>>>::operator ()<std::vector<int8_t,std::allocator<int8_t>>>(const char *,const T &) const' being compiled
+          with
+          [
+              T=std::vector<int8_t,std::allocator<int8_t>>
+          ]
+E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\test\benchmark_gtest.cc(38): message : see reference to function template instantiation 'testing::AssertionResult testing::internal::PredicateFormatterFromMatcher<testing::internal::ElementsAreMatcher<std::tuple<int,int,int,int>>>::operator ()<std::vector<int8_t,std::allocator<int8_t>>>(const char *,const T &) const' being compiled
+          with
+          [
+              T=std::vector<int8_t,std::allocator<int8_t>>
+          ]
+  benchmark_gtest.vcxproj -> E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\test\Debug\benchmark_gtest.exe

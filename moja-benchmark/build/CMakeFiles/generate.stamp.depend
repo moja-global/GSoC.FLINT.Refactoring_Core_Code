@@ -1,0 +1,27 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Platform/WindowsPaths.cmake
+E:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark/CMakeLists.txt
+E:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark/build/CMakeFiles/3.17.2/CMakeCXXCompiler.cmake
+E:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark/build/CMakeFiles/3.17.2/CMakeRCCompiler.cmake
+E:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark/build/CMakeFiles/3.17.2/CMakeSystem.cmake
+E:/Development/moja-global/vcpkg/installed/x64-windows/share/poco/PocoConfig.cmake
+E:/Development/moja-global/vcpkg/installed/x64-windows/share/poco/PocoConfigVersion.cmake
+E:/Development/moja-global/vcpkg/installed/x64-windows/share/poco/PocoFoundationConfig.cmake
+E:/Development/moja-global/vcpkg/installed/x64-windows/share/poco/PocoFoundationConfigVersion.cmake
+E:/Development/moja-global/vcpkg/installed/x64-windows/share/poco/PocoFoundationTargets-debug.cmake
+E:/Development/moja-global/vcpkg/installed/x64-windows/share/poco/PocoFoundationTargets-release.cmake
+E:/Development/moja-global/vcpkg/installed/x64-windows/share/poco/PocoFoundationTargets.cmake
+E:/Development/moja-global/vcpkg/scripts/buildsystems/vcpkg.cmake

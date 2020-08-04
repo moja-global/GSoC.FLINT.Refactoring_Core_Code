@@ -1,0 +1,4 @@
+﻿  Building Custom Rule E:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark/benchmark/test/CMakeLists.txt
+  register_benchmark_test.cc
+E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\src\check.h(41): warning C4722: 'benchmark::internal::CheckHandler::~CheckHandler': destructor never returns, potential memory leak
+  register_benchmark_test.vcxproj -> E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\test\Release\register_benchmark_test.exe

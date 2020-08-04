@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B9E94A53-2DB1-3C57-B84C-AEA2D031B1EA}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark/benchmark/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark -BE:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark/build --check-stamp-file E:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark/build/benchmark/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cxx.in;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindThreads.cmake;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\AddCXXCompilerFlag.cmake;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\CXXFeatureCheck.cmake;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\GetGitVersion.cmake;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\GoogleTest.cmake;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\GoogleTest.cmake.in;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\gnu_posix_regex.cpp;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\posix_regex.cpp;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\std_regex.cpp;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\steady_clock.cpp;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\third_party\googletest\googletest-paths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark/benchmark/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark -BE:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark/build --check-stamp-file E:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark/build/benchmark/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cxx.in;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindThreads.cmake;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\AddCXXCompilerFlag.cmake;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\CXXFeatureCheck.cmake;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\GetGitVersion.cmake;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\GoogleTest.cmake;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\GoogleTest.cmake.in;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\gnu_posix_regex.cpp;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\posix_regex.cpp;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\std_regex.cpp;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\steady_clock.cpp;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\third_party\googletest\googletest-paths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark/benchmark/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark -BE:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark/build --check-stamp-file E:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark/build/benchmark/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cxx.in;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindThreads.cmake;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\AddCXXCompilerFlag.cmake;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\CXXFeatureCheck.cmake;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\GetGitVersion.cmake;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\GoogleTest.cmake;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\GoogleTest.cmake.in;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\gnu_posix_regex.cpp;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\posix_regex.cpp;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\std_regex.cpp;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\steady_clock.cpp;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\third_party\googletest\googletest-paths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark/benchmark/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark -BE:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark/build --check-stamp-file E:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark/build/benchmark/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cxx.in;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindThreads.cmake;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\AddCXXCompilerFlag.cmake;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\CXXFeatureCheck.cmake;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\GetGitVersion.cmake;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\GoogleTest.cmake;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\GoogleTest.cmake.in;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\gnu_posix_regex.cpp;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\posix_regex.cpp;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\std_regex.cpp;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\benchmark\cmake\steady_clock.cpp;E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\third_party\googletest\googletest-paths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\ZERO_CHECK.vcxproj">
+      <Project>{9F7B0A43-3D99-31AD-8B90-BD5964D1F0CA}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\test\basic_test.vcxproj">
+      <Project>{FCFB9DD3-34C4-3027-9227-F3BC248D78B3}</Project>
+      <Name>basic_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\src\benchmark.vcxproj">
+      <Project>{C807B82D-FAEF-3950-ADFE-212E72AC8819}</Project>
+      <Name>benchmark</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\test\benchmark_gtest.vcxproj">
+      <Project>{B68E4D2F-7D19-370A-9B2D-9F3E06C4D1FD}</Project>
+      <Name>benchmark_gtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\src\benchmark_main.vcxproj">
+      <Project>{DAE7BF14-DF3B-3E2B-ADED-D6B0A87DB7A9}</Project>
+      <Name>benchmark_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\test\benchmark_name_gtest.vcxproj">
+      <Project>{1387FD0D-7AC3-30DF-8ABC-9A27709E40B7}</Project>
+      <Name>benchmark_name_gtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\test\benchmark_test.vcxproj">
+      <Project>{6D6880F4-655E-3CDA-B849-1B980419259C}</Project>
+      <Name>benchmark_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\test\commandlineflags_gtest.vcxproj">
+      <Project>{D614E5AA-61CE-3680-8862-B69C0E6C6377}</Project>
+      <Name>commandlineflags_gtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\test\complexity_test.vcxproj">
+      <Project>{58BE0C93-EB17-37A2-8F83-CC0C76A37F30}</Project>
+      <Name>complexity_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\test\diagnostics_test.vcxproj">
+      <Project>{807EDCBE-3D86-3D4B-B513-4C5356A58A12}</Project>
+      <Name>diagnostics_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\test\display_aggregates_only_test.vcxproj">
+      <Project>{EEA10B15-DB8A-3232-8597-85277DF0A5ED}</Project>
+      <Name>display_aggregates_only_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\test\donotoptimize_test.vcxproj">
+      <Project>{C557435E-1680-3E6D-8DBA-99C863EAE5F1}</Project>
+      <Name>donotoptimize_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\test\filter_test.vcxproj">
+      <Project>{D32EEF9E-3EE5-367B-BDC6-02582D80675C}</Project>
+      <Name>filter_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\test\fixture_test.vcxproj">
+      <Project>{EF3ED1A9-73C4-3749-BAB2-15F4335AF40F}</Project>
+      <Name>fixture_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\test\internal_threading_test.vcxproj">
+      <Project>{D9CDB784-B1DD-3121-90B9-6F50C5A3E0AA}</Project>
+      <Name>internal_threading_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\test\link_main_test.vcxproj">
+      <Project>{D9CDADBD-BF44-39B0-B984-4FDCE9FE61F7}</Project>
+      <Name>link_main_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\test\map_test.vcxproj">
+      <Project>{459197F2-5BEE-3304-9DDA-2053FC02D7C2}</Project>
+      <Name>map_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\test\memory_manager_test.vcxproj">
+      <Project>{2EDD4768-CB6A-35EA-8002-0C6FCF533657}</Project>
+      <Name>memory_manager_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\test\multiple_ranges_test.vcxproj">
+      <Project>{88FF10F8-68A6-3946-B663-DE068CDA1046}</Project>
+      <Name>multiple_ranges_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\test\options_test.vcxproj">
+      <Project>{DA0AEC31-3399-3F37-A997-58D89CB97B49}</Project>
+      <Name>options_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\test\output_test_helper.vcxproj">
+      <Project>{3B6CAD45-D10F-3838-8F9F-16392C874AB2}</Project>
+      <Name>output_test_helper</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\test\register_benchmark_test.vcxproj">
+      <Project>{A44FDB4B-5D48-3400-9917-45374BD572F4}</Project>
+      <Name>register_benchmark_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\test\report_aggregates_only_test.vcxproj">
+      <Project>{66C6531A-DC29-3DF2-8DF2-DAF16D788255}</Project>
+      <Name>report_aggregates_only_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\test\reporter_output_test.vcxproj">
+      <Project>{90697AC1-2E49-3429-AF42-83964CC33431}</Project>
+      <Name>reporter_output_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\test\skip_with_error_test.vcxproj">
+      <Project>{05EBD083-B797-3C8E-8A2D-0DD9D101C95B}</Project>
+      <Name>skip_with_error_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\test\statistics_gtest.vcxproj">
+      <Project>{F63BA83B-3691-3049-B25D-A331D55CA41C}</Project>
+      <Name>statistics_gtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\test\string_util_gtest.vcxproj">
+      <Project>{008CC9BF-5DAB-3E9F-80C8-3DF7BFD37139}</Project>
+      <Name>string_util_gtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\test\templated_fixture_test.vcxproj">
+      <Project>{BC55975D-FB05-3526-AC7D-DA99B8AD5120}</Project>
+      <Name>templated_fixture_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\test\user_counters_tabular_test.vcxproj">
+      <Project>{BD337583-85E0-30F8-9A31-41809E47D1A3}</Project>
+      <Name>user_counters_tabular_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\test\user_counters_test.vcxproj">
+      <Project>{EA42AC0F-7248-3588-BDE6-461B2090B511}</Project>
+      <Name>user_counters_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\test\user_counters_thousands_test.vcxproj">
+      <Project>{BE28A2ED-043E-376C-AA7A-64164768A88D}</Project>
+      <Name>user_counters_thousands_test</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

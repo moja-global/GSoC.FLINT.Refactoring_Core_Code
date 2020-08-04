@@ -1,0 +1,5 @@
+﻿  Building Custom Rule E:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark/benchmark/googletest/googlemock/CMakeLists.txt
+  gtest-all.cc
+  gmock-all.cc
+  gmock_main.cc
+  gmock_main.vcxproj -> E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\lib\Debug\gmock_maind.lib

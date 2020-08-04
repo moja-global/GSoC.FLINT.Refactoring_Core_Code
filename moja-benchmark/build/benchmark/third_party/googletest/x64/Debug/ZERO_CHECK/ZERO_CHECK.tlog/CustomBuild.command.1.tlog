@@ -1,0 +1,10 @@
+^E:\DEVELOPMENT\MOJA-GLOBAL\GSOC.FLINT.REFACTORING_CORE_CODE\MOJA-BENCHMARK\BUILD\BENCHMARK\THIRD_PARTY\GOOGLETEST\CMAKEFILES\09E83229F46FDF6D6CFC84325D062207\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark/build/benchmark/third_party/googletest -BE:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark/build/benchmark/third_party/googletest --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark/build/benchmark/third_party/googletest/googletest-download.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

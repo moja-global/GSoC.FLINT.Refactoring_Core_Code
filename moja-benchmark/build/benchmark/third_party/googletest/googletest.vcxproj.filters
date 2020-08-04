@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\third_party\googletest\CMakeFiles\ab1c94dcc491c5f9e0d919437923820e\googletest-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\third_party\googletest\CMakeFiles\ab1c94dcc491c5f9e0d919437923820e\googletest-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\third_party\googletest\CMakeFiles\ab1c94dcc491c5f9e0d919437923820e\googletest-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\third_party\googletest\CMakeFiles\ab1c94dcc491c5f9e0d919437923820e\googletest-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\third_party\googletest\CMakeFiles\ab1c94dcc491c5f9e0d919437923820e\googletest-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\third_party\googletest\CMakeFiles\ab1c94dcc491c5f9e0d919437923820e\googletest-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\third_party\googletest\CMakeFiles\ab1c94dcc491c5f9e0d919437923820e\googletest-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\third_party\googletest\CMakeFiles\ab1c94dcc491c5f9e0d919437923820e\googletest-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\third_party\googletest\CMakeFiles\0ae2ddee0bbf1054692622cd6eff9c22\googletest-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\third_party\googletest\CMakeFiles\09e83229f46fdf6d6cfc84325d062207\googletest.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\third_party\googletest\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\build\benchmark\third_party\googletest\CMakeFiles\googletest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FCE5A440-A7C6-3C68-8DAF-6370CC539CA1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

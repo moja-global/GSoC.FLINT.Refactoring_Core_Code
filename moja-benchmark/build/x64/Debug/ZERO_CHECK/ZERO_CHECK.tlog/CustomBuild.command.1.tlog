@@ -1,0 +1,10 @@
+^E:\DEVELOPMENT\MOJA-GLOBAL\GSOC.FLINT.REFACTORING_CORE_CODE\MOJA-BENCHMARK\BUILD\CMAKEFILES\9270DBA5BA232E5C823948E81801793E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark -BE:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark/build/moja.benchmark.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
