@@ -14,7 +14,9 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
+find_package(Boost)
 find_package(Poco REQUIRED Foundation)
+find_package(fmt CONFIG REQUIRED)
 
 add_subdirectory(benchmark)                  
 
@@ -22,5 +24,6 @@ add_executable(moja.benchmark src/variant.cpp)
 
 target_link_libraries(moja.benchmark 
     benchmark::benchmark
+    fmt::fmt-header-only
     Poco::Foundation
 )
