@@ -1,0 +1,9 @@
+﻿  Building Custom Rule E:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark/fmt-7.0.1/test/CMakeLists.txt
+  posix-mock-test.cc
+  format.cc
+  test-main.cc
+  gtest-extra.cc
+  util.cc
+  Generating Code...
+     Creating library E:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark/fmt-7.0.1/test/Debug/posix-mock-test.lib and object E:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark/fmt-7.0.1/test/Debug/posix-mock-test.exp
+  posix-mock-test.vcxproj -> E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\fmt-7.0.1\bin\Debug\posix-mock-test.exe

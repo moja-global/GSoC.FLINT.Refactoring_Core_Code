@@ -1,0 +1,62 @@
+Performing C++ SOURCE FILE Test has_std_11_flag failed with the following output:
+Change Dir: E:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark/fmt-7.0.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_0962e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.6.0+5ff7b0c9e for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.26.28806 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"E:\development\moja-global\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D has_std_11_flag /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0962e.dir\Debug\\" /Fd"cmTC_0962e.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue  -std=c++11 "E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\fmt-7.0.1\CMakeFiles\CMakeTmp\src.cxx"
+cl : command line warning D9002: ignoring unknown option '-std=c++11' [E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\fmt-7.0.1\CMakeFiles\CMakeTmp\cmTC_0962e.vcxproj]
+  src.cxx
+  cmTC_0962e.vcxproj -> E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\fmt-7.0.1\CMakeFiles\CMakeTmp\Debug\cmTC_0962e.exe
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test has_std_0x_flag failed with the following output:
+Change Dir: E:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark/fmt-7.0.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_d86ff.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.6.0+5ff7b0c9e for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.26.28806 for x64
+  src.cxx
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"E:\development\moja-global\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D has_std_0x_flag /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d86ff.dir\Debug\\" /Fd"cmTC_d86ff.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue  -std=c++0x "E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\fmt-7.0.1\CMakeFiles\CMakeTmp\src.cxx"
+cl : command line warning D9002: ignoring unknown option '-std=c++0x' [E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\fmt-7.0.1\CMakeFiles\CMakeTmp\cmTC_d86ff.vcxproj]
+  cmTC_d86ff.vcxproj -> E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\fmt-7.0.1\CMakeFiles\CMakeTmp\Debug\cmTC_d86ff.exe
+
+
+Source file was:
+int main() { return 0; }
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: E:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark/fmt-7.0.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_065be.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.6.0+5ff7b0c9e for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.26.28806 for x64
+  CheckIncludeFile.cxx
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"E:\development\moja-global\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_065be.dir\Debug\\" /Fd"cmTC_065be.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\fmt-7.0.1\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx"
+E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\fmt-7.0.1\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\fmt-7.0.1\CMakeFiles\CMakeTmp\cmTC_065be.vcxproj]
+
+
+
+Performing C++ SOURCE FILE Test HAVE_FNO_DELETE_NULL_POINTER_CHECKS failed with the following output:
+Change Dir: E:/Development/moja-global/GSoC.FLINT.Refactoring_Core_Code/moja-benchmark/fmt-7.0.1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_45609.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.6.0+5ff7b0c9e for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.26.28806 for x64
+  src.cxx
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"E:\development\moja-global\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_FNO_DELETE_NULL_POINTER_CHECKS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_45609.dir\Debug\\" /Fd"cmTC_45609.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue  -fno-delete-null-pointer-checks "E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\fmt-7.0.1\CMakeFiles\CMakeTmp\src.cxx"
+cl : command line warning D9002: ignoring unknown option '-fno-delete-null-pointer-checks' [E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\fmt-7.0.1\CMakeFiles\CMakeTmp\cmTC_45609.vcxproj]
+  cmTC_45609.vcxproj -> E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\fmt-7.0.1\CMakeFiles\CMakeTmp\Debug\cmTC_45609.exe
+
+
+Source file was:
+int main() { return 0; }

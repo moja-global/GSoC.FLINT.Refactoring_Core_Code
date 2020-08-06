@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Development\moja-global\GSoC.FLINT.Refactoring_Core_Code\moja-benchmark\fmt-7.0.1\CMakeFiles\39a36e10e37d696ed3821f4cec342a9c\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EA703B6C-B3A6-3E55-8708-1B6C099064F0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
