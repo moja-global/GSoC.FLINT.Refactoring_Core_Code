@@ -15,10 +15,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 find_package(Boost)
+find_package(benchmark CONFIG REQUIRED)
 find_package(Poco REQUIRED Foundation)
 find_package(fmt CONFIG REQUIRED)
-
-add_subdirectory(benchmark)                  
 
 add_executable(moja.benchmark src/variant.cpp)
 
