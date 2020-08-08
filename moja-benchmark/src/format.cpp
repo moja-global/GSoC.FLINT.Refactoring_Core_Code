@@ -1,5 +1,11 @@
 #include <benchmark/benchmark.h>
 
+//TINY
+#include <boost/format.hpp>
+#include <iomanip>
+#include <stdio.h>
+#include "tinyformat.h"
+
 // FMT
 #include <fmt/format.h>
 
@@ -7,6 +13,7 @@
 #include <boost/algorithm/string/join.hpp>
 #include <boost/format.hpp>
 #include <boost/range/adaptor/transformed.hpp>
+
 
 // FMT
 static void BM_FMT_JOIN(benchmark::State& state) {
@@ -93,3 +100,16 @@ static void BM_Boost_DOUBLE(benchmark::State& state) {
 }
 BENCHMARK(BM_Boost_DOUBLE);
 
+//Tiny
+static void BM_Tiny(benchmark::State& state) {
+
+    std::string weekday = "Wednesday";
+    const char* month = "July";
+    size_t day = 27;
+    long hour = 14;
+    int min = 44;
+
+    tfm::printf("%s, %s %d, %.2d:%.2d\n", weekday, month, day, hour, min);
+
+}
+BENCHMARK(BM_Tiny);

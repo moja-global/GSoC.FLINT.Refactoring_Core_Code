@@ -19,7 +19,7 @@ find_package(benchmark CONFIG REQUIRED)
 find_package(Poco REQUIRED Foundation)
 find_package(fmt CONFIG REQUIRED)
 
-add_executable(moja.benchmark src/variant.cpp src/format.cpp)
+add_executable(moja.benchmark src/variant.cpp src/format.cpp )
 
 target_link_libraries(moja.benchmark 
     benchmark::benchmark
